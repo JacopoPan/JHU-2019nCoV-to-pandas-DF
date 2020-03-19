@@ -11,3 +11,5 @@ OS X or Ubuntu, `git`, Python (3.7)
 
 # Example
 ![alt text](https://i.ibb.co/F3mtrZf/Screen-Shot.png "Plot")
+
+Disclaimer: the y-axes are not to scale, the absolute number of confirmed cases seems an indicator of testing more than anything else.
