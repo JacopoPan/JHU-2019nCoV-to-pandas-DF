@@ -2,7 +2,7 @@
 Simple Bash/Python scripting to import JHU CSSE's time series into pandas DataFrames
 
 # Requirements
-`git`
+OS X or Ubuntu, `git`, Python(3.7)
 
 # Usage
 ```
