@@ -1,8 +1,10 @@
 # JHU-2019nCoV-to-pandas-DF
-Simple Bash/Python scripting to import JHU CSSE's time series into pandas DataFrames
+Simple Bash/Python scripting to import JHU CSSE's time series (confirmed cases, deaths, and recovered patients) into 3 pandas DataFrames
 
 # Requirements
-OS X or Ubuntu, `git`, Python (3.7)
+- OS X or Ubuntu
+- `git` (`$ sudo apt-get install git`)
+- Python (if you are not using `pyhton3.7`, change line 17 of `run.sh` accordingly) 
 
 # Usage
 ```
