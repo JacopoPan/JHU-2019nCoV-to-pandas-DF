@@ -79,9 +79,9 @@ for i in range(len(countries)):
 	else: 
 		ax.set_title(countries[i], fontsize=10)
 	# plot
-	confirmed.plot('date', countries[i], ax=ax, legend=False)
-	deaths.plot('date', countries[i], ax=ax, legend=False)
-	recovered.plot('date', countries[i], ax=ax, legend=False)
+	# confirmed.plot('date', countries[i], ax=ax, legend=False, color='blue')
+	deaths.plot('date', countries[i], ax=ax, legend=False, color='red')
+	recovered.plot('date', countries[i], ax=ax, legend=False, color='green')
 	# label and ticks options
 	ax.set_xlabel('')
 	ax.tick_params(axis='both', which='both', labelsize=6)
